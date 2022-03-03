@@ -12,8 +12,7 @@ Les tutos officiels sont majoritairement en *Python* (Carla supporte les deux la
 fréquemment consulter la *doc Doxygen* pour faire le parallèle entre les fonctions *Python* et *C++*
 
 ### Arborescence
-(Res/arbo.png)
-[image de l'arborescense](https://carla.readthedocs.io/en/0.9.13/img/pipeline.png)
+![image de l'arborescense](https://carla.readthedocs.io/en/0.9.13/img/pipeline.png)
 Carla fonctionne avec un *Server* qui comprend la partie _UnrealEngine_ et un plugin de communication TCP avec *Carla*.
 Et aussi un ou plusieurs *Client* (C++ ou Python) qui fonctionne uniquement avec du code *Carla*. 
 
@@ -201,7 +200,9 @@ camera->Destroy();
 ```
 
 Résultat des caméras : 
-(Res/velo.gif)
-[gif : vélo](https://im4.ezgif.com/tmp/ezgif-4-6e471d157b.gif)
-(Res/scooter.gif)
-[gif : scooter](https://im4.ezgif.com/tmp/ezgif-4-c76ebd4528.gif)
+
+Vélo et **carla::rpc::MapLayer::None** 
+![gif : vélo](https://github.com/pmollard/tuto_carla_cpp/blob/main/res/velo.gif)
+
+Scooter et **carla::rpc::MapLayer::All** 
+![gif : scooter](https://github.com/pmollard/tuto_carla_cpp/blob/main/res/scooter.gif)
